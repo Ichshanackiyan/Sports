@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike - Member Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/nike-font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="nike-header">
+        <nav>
+            <div class="logo">
+                <img src="public/nike-logo.png" alt="Nike Logo">
+                <a href="index.html" class="icon-link"><span>SPORTS<span>W</span></span></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="login-main">
+        <div class="login-container">
+            <div class="login-header">
+                <img src="public/nike-logo.png" alt="Nike Logo" class="login-logo">
+                <h2>YOUR ACCOUNT FOR EVERYTHING NIKE</h2>
+            </div>
+            
+            <form id="loginForm" class="login-form">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <div class="password-toggle">
+                        <i class="far fa-eye" id="togglePassword"></i>
+                    </div>
+                </div>
+                
+                <button type="submit" class="nike-btn">SIGN IN</button>
+                
+                <div class="login-options">
+                    <a href="#" class="forgot-password">Forgot your password?</a>
+                    <p>Not a Member? <a href="#" class="join-now">Join Now</a></p>
+                </div>
+            </form>
+            
+            <div class="social-login">
+                <p>Or sign in with</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-apple"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="nike-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="#">Footwear</a></li>
+                    <li><a href="#">Apparel</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">New Releases</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 SportsWare. Inspired by Nike. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script/login.js"></script>
+</body>
+</html>

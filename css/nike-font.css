@@ -1,0 +1,9 @@
+/* Nike Futura Font */
+@font-face {
+    font-family: 'Nike Futura';
+    src: url('../fonts/Nike-Futura.woff2') format('woff2'),
+         url('../fonts/Nike-Futura.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

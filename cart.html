@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Nike</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/nike-font.css">
+   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        
+            <nav>
+                <div class="logo">
+                    <img src="public/nike-logo.png" alt="Nike Logo">
+                    <a href="index.html" class="icon-link"><span>SPORTS<span>W</span></span></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="women.html" class="active">Women</a></li>
+                    <li><a href="kids.html">Kids</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    
+                </ul>
+                <div class="nav-icons">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-heart"></i>
+                
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="cart-container">
+        <h1>Your Cart</h1>
+        <div class="cart-content">
+            <section class="cart-items">
+                <div class="cart-item">
+                    <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/skwgyqrbfzhu6uyeh0gg/air-jordan-1-mid-shoes-X5pM09.png" alt="Nike Air Jordan 1 Mid">
+                    <div class="item-details">
+                        <h3>Air Jordan 1 Mid</h3>
+                        <p>Men's Shoes</p>
+                        <p>Size: 10</p>
+                        <div class="quantity-selector">
+                            <button class="quantity-btn minus">-</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <span class="price">$125.00</span>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/6176eb14-7d8c-41ae-ad12-7a8a6d6f8f65/air-force-1-07-shoes-WrLlWX.png" alt="Nike Air Force 1 '07">
+                    <div class="item-details">
+                        <h3>Air Force 1 '07</h3>
+                        <p>Men's Shoes</p>
+                        <p>Size: 10.5</p>
+                        <div class="quantity-selector">
+                            <button class="quantity-btn minus">-</button>
+                            <span class="quantity">2</span>
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <span class="price">$110.00</span>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-row">
+                    <span>Subtotal (3 items)</span>
+                    <span>$345.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Estimated Shipping</span>
+                    <span>FREE</span>
+                </div>
+                <div class="summary-row">
+                    <span>Estimated Tax</span>
+                    <span>$24.15</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span>$369.15</span>
+                </div>
+                <button class="checkout-btn">Checkout</button>
+                <div class="payment-options">
+                    <p>or pay with</p>
+                    <div class="payment-icons">
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-apple-pay"></i>
+                        <i class="fab fa-cc-amex"></i>
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Help</h4>
+                    <a href="#">Order Status</a>
+                    <a href="#">Shipping & Delivery</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="link-column">
+                    <h4>Company</h4>
+                    <a href="#">About Nike</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Investors</a>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2023 Nike, Inc. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script/cart.js"></script>
+</body>
+</html>
